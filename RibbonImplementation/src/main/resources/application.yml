@@ -1,0 +1,9 @@
+RibbonApp:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8991,localhost:8992
+    ServerListRefreshInterval: 15000
+
+server:
+  port: 8888
